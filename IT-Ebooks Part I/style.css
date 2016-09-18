@@ -1,0 +1,190 @@
+html{
+	width: 20%;
+	height: 14%;
+	padding: 0;
+	margin: 0;
+	font-family: "Palatino", serif;
+	overflow-x: hidden;
+}
+
+ .header{
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	background-color: maroon;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+
+.title{
+	padding: 5;
+	margin: 0;
+	margin-left: 530px;
+	position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    color: yellow ;
+}
+
+.container-all{
+	position: absolute;
+	left: 10;
+	top: 9%;
+	width: 100%;
+	padding-right: 50px;
+	margin-bottom: 40px;
+}
+
+.main-list{
+	width: 90%;
+	list-style: none;
+}
+.search{
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 800px;
+}
+.submit{
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	background-color: maroon;
+	color: yellow;
+}
+
+.book{
+	padding-bottom: 5px;
+}
+
+
+.book-title{
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 5;
+	color: maroon;
+	color: maroon;
+	text-decoration: underline;
+
+}
+
+.book-title:hover{
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+
+}
+
+
+
+.book-subtitle{
+	margin-top: 0;
+	font-size: .95em;
+}
+
+.book-desc{
+	font-size: .9em;
+}
+
+.book-img{
+	width: 114px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.book-isbn{
+	font-size: .95em;
+	margin-top: 15px;
+
+}
+
+.num-results{
+	margin-bottom: 25px;
+	border-bottom: 3px solid silver;
+	padding-bottom: 15px;
+}
+
+.container-single{
+	position: absolute;
+	width: 96%;
+	margin: auto;
+	top: 15%;
+	padding-bottom: 15px;
+}
+
+.main{
+	width: 30%;
+	float: right;
+}
+
+.main-content{
+	width: 60%;
+	margin-right: 55%;
+}
+
+.book-single{
+	padding-bottom: 5px;
+}
+
+.book-title-single{
+	text-decoration: underline;
+    font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: maroon;
+	font-size: 2em;
+	margin-top: 0;
+}
+
+.book-subtitle-single{
+	margin-top: 0;
+	font-size: 1.25em;
+	color: #1B64DE;
+}
+
+.book-desc-single{
+	line-height: 1.5;
+}
+
+.book-isbn-single{
+	font-size: .95em;
+}
+
+.category{
+	font-size: 1.25em;
+	color: #0553C9;
+	font-weight: bold;
+	border-bottom: 3px solid silver;
+}
+
+.details{
+	color: maroon;
+}
+
+@media (max-width: 800px) {
+
+	.book-title-single{
+		margin-top: 20px;
+	}
+
+	.container-single{
+		margin-top: 10px;
+	}
+
+	.main-content{
+		width: 90%;
+	}
+
+	.main{
+		float: right;
+	}
+}
+
+@media (max-width: 550px) {
+	.main-list{
+		width: 80%;
+	}
+}

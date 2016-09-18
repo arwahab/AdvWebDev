@@ -1,0 +1,113 @@
+html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "Palatino", serif;
+	overflow-x: hidden;
+}
+
+.header{
+	position: fixed;
+	width: 690%;
+	height: 8%;
+	background-color: maroon;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+
+.title{
+	padding: 0;
+	margin: 0;
+	margin-left: 6%;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    color: yellow;
+}
+
+.container{
+	position: absolute;
+	width: 96%;
+	margin: auto;
+	top: 15%;
+	padding-bottom: 15px;
+}
+
+.main{
+	width: 30%;
+	float: right;
+}
+
+.main-content{
+	width: 60%;
+	margin-right: 5%;
+}
+
+.book{
+	padding-bottom: 5px;
+}
+
+.book-title{
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: maroon;
+	font-size: 2em;
+	margin-top: 0;
+	text-decoration: underline 
+}
+
+.book-subtitle{
+	margin-top: 5;
+	font-size: 1.25em;
+	color: maroon;
+}
+
+.book-desc{
+	line-height: 1.5;
+}
+
+.book-img{
+	width: 300px;
+	float: center;
+	margin-right: 10px;
+	margin-left: 75px;
+
+	margin-top: 5px;
+}
+
+.book-isbn{
+	font-size: .95em;
+}
+
+.category{
+	font-size: 1.25em;
+	color: maroon;
+	font-weight: bold;
+}
+
+.details{
+	color: maroon;
+}
+
+@media (max-width: 800px) {
+
+	.book-title{
+		margin-top: 20px;
+	}
+
+	.container{
+		margin-top: 10px;
+	}
+
+	.main-content{
+		width: 90%;
+	}
+
+	.main{
+		float: left;
+	}
+}
